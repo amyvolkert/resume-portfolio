@@ -237,7 +237,7 @@ sup {
 
 a {
   color: #bd5d38;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #974a2d;
@@ -600,8 +600,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
+  padding-bottom: 10px;
 }
 
 .img-thumbnail {
